@@ -1,0 +1,37 @@
+.app__service-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 300px;
+}
+
+.app__service-item:hover{
+    cursor: pointer;
+    border-radius: 36px;
+background: var(--color-white);
+box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0.00), 0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.01), 0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.service-item_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92px;
+    height: 78px;
+}
+
+.service-item_image img{
+    width: 100%;
+}
+
+.app__service-item h3{
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 1rem;
+}
+
