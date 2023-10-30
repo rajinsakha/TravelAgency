@@ -69,5 +69,9 @@
         display: flex;
     }
 
+    .app__navbar_account{
+        display: none;
+    }
+
 }
 

@@ -103,6 +103,11 @@ margin-top: 1rem;
   .app__wrapper{
     flex-direction: column;
   }
+
+  .app__wrapper_img{
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
 }
 
 @media screen and (max-width: 650px){

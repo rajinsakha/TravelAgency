@@ -4,6 +4,9 @@ import eventImg from './localevents.png';
 import planeImg from './plane.png';
 import powersupplyImg from './power-supply 1.png';
 import satelliteImg from './satellite-dish.png';
+import destination1 from './destination1.png';
+import destination2 from './destination2.png';
+import destination3 from './destination3.png';
 
 export {
     logo,
@@ -11,5 +14,8 @@ export {
     eventImg,
     planeImg,
     powersupplyImg,
-    satelliteImg
+    satelliteImg,
+    destination1,
+    destination2,
+    destination3
 }

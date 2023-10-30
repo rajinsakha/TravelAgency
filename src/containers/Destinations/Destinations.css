@@ -1,14 +1,15 @@
-.app__services{
+.app__destinations{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2.25rem;
+    gap: 2rem;
     flex-wrap: wrap;
-    margin-top: 4rem;
+    margin: 4rem 1rem;
+
 }
 
 @media screen and (max-width: 800px) {
-    .app__services{
+    .app__destinations{
         justify-content: center;
     }
     
