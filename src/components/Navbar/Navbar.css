@@ -22,4 +22,52 @@
     gap: 4rem;
 }
 
+.app__navbar_smallscreen{
+    display: none;
+}
+
+.app__navbar-smallscreen_overlay{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: flex-start;
+    width: 300px;
+    height: 100vh;
+    background-color: var(--color-yellow);
+    overflow-x: hidden;
+    position: fixed;
+    transition: 0.5s;
+    top: 0;
+    right: 0;
+    color: white;
+    z-index: 1;
+}
+
+.app__navbar_smallscreen_links{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 3rem;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 3rem;
+    padding: 1rem 0rem;
+    cursor: pointer;
+}
+
+.app__navbar_smallscreen_links li:hover{
+    color: var(--color-dark);
+}
+
+
+@media screen and (max-width: 1050px) {
+    .app__navbar_links{
+        display: none;
+    }
+
+    .app__navbar_smallscreen{
+        display: flex;
+    }
+
+}
 

@@ -14,7 +14,6 @@ const Services = () => {
         <ServiceItem key={service.title} {...service} />
       ))}
   
-    
     </div>
     </main>
   )
