@@ -7,6 +7,8 @@ import satelliteImg from './satellite-dish.png';
 import destination1 from './destination1.png';
 import destination2 from './destination2.png';
 import destination3 from './destination3.png';
+import tripCardImg from './trip-card-img.jpg';
+import overlappingImg from './overlapping-card-image.png';
 
 export {
     logo,
@@ -17,5 +19,7 @@ export {
     satelliteImg,
     destination1,
     destination2,
-    destination3
+    destination3,
+    tripCardImg,
+    overlappingImg
 }

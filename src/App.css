@@ -47,6 +47,14 @@ text-transform: uppercase;
 margin-bottom: 1rem;
 }
 
+.subheading{
+  color:  #5E6282;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124.5%; /* 19.92px */
+}
+
 .heading{
 color:  #181E4B;
 /* font-family: Volkhov; */
@@ -64,7 +72,8 @@ font-size: 50px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-text-transform: capitalize; 
+text-transform: capitalize;
+margin-bottom: 2rem; 
 }
 
 .description{
