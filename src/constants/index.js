@@ -1,5 +1,5 @@
 
-import { planeImg, satelliteImg, powersupplyImg, eventImg, destination1, destination2, destination3 } from "../assets"
+import { planeImg, satelliteImg, powersupplyImg, eventImg, destination1, destination2, destination3, client1, client2, client3 } from "../assets"
 import {GrMap} from 'react-icons/gr';
 import {MdOutlinePayments} from 'react-icons/md';
 import {BiTaxi} from 'react-icons/bi';
@@ -30,4 +30,13 @@ export const bookings = [
     {icon: GrMap, title:"Choose Destination", desc:"Choose your desired destination to book your trip.", color:"#F0BB1F"},
     {icon: MdOutlinePayments, title:"Make Payment", desc:"After choosing your destination, you can make payment through various payment gateways.",color:'#F15A2B'},
     {icon: BiTaxi, title:"Reach Airport on Selected Date", desc:"You must reach airport on selected date to enjoy your trip.",color:"#006380"},
+]
+
+export const testimonials = [
+    {imgURL: client1, review:"“Flawless and personalized planning! Travel Globe turned my dream trip into reality with their impeccable service and attention to detail”", fullName:"Rajin Sakha", address
+: "Bhaktapur, Nepal"},
+    {imgURL: client2, review:"“Amazing travel experience! Travel Globe handled every detail with care, making my vacation completely worry-free and absolutely memorable.”", fullName:"Samir Wagle", address
+: "Kathmandu, Nepal"},
+    {imgURL: client3, review:"“Top-notch service! Travel Globe made my journey hassle-free with their expert planning and incredible destination insights.”", fullName:"Sagar Thapa Magar", address
+: "Gulmi, Nepal"}
 ]

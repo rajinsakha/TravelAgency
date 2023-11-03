@@ -1,0 +1,105 @@
+.app__testimonials_info {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.info-head {
+  width: 425px;
+  text-align: left;
+}
+
+.address {
+  color: #5e6282;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.name {
+  color: #5e6282;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.testimonials_info-review {
+  position: relative;
+  padding: 1.3rem 2rem;
+  width: 504px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0),
+    0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+    0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.01),
+    0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02),
+    0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.testimonals_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.testimonals_buttons svg{
+    cursor: pointer;
+}
+
+.customer-img {
+  width: 68px;
+  height: 68px;
+  border-radius: 68px;
+  position: absolute;
+  left: -40px;
+  top: 0;
+}
+
+.rotate-icon {
+  transform: rotate(90deg); /* Rotate 90 degrees as an example */
+}
+
+.scrollable-text{
+height: 150px; /* Fixed height */
+overflow-y: auto; /* Vertical scrollbar if the content overflows */
+}
+
+@media screen and (max-width: 1150px) {
+
+  .testimonials_title {
+    margin-right: 2rem;
+  }
+
+  .testimonials{
+  flex-direction: column;
+  }
+
+
+}
+
+@media screen and (max-width: 850px) {
+  .testimonials_info-review {
+    width: 80%;
+  }
+
+  .customer-img {
+    left: unset;
+    right: -40px;
+  }
+
+  .testimonials_title {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .info-head {
+    width: fit-content;
+  }
+}

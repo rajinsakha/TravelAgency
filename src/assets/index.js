@@ -9,6 +9,10 @@ import destination2 from './destination2.png';
 import destination3 from './destination3.png';
 import tripCardImg from './trip-card-img.jpg';
 import overlappingImg from './overlapping-card-image.png';
+import customerImg from './review-img.png';
+import client1 from './client1.jpg';
+import client2 from './client2.jpg';
+import client3 from './client3.jpg';
 
 export {
     logo,
@@ -21,5 +25,9 @@ export {
     destination2,
     destination3,
     tripCardImg,
-    overlappingImg
+    overlappingImg,
+    customerImg,
+    client1,
+    client2,
+    client3
 }
