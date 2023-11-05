@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.a1976b7a.css",
+    "main.js": "/react-gh-pages/static/js/main.5563d960.js",
+    "static/js/787.8d9b3c30.chunk.js": "/react-gh-pages/static/js/787.8d9b3c30.chunk.js",
+    "static/media/destination3.png": "/react-gh-pages/static/media/destination3.1a3fc4bdef6234bb6da5.png",
+    "static/media/review-img.png": "/react-gh-pages/static/media/review-img.41fd59a7116dbea4e638.png",
+    "static/media/hero-image.png": "/react-gh-pages/static/media/hero-image.d6147572657f5b88776a.png",
+    "static/media/destination2.png": "/react-gh-pages/static/media/destination2.fd1dd904c91c5fff2a2c.png",
+    "static/media/client1.jpg": "/react-gh-pages/static/media/client1.564d1f21ef7e4269bebd.jpg",
+    "static/media/destination1.png": "/react-gh-pages/static/media/destination1.3afa0749bc834a4cd232.png",
+    "static/media/qantas.png": "/react-gh-pages/static/media/qantas.575c40dcb6ce5cadca7a.png",
+    "static/media/alitalia.png": "/react-gh-pages/static/media/alitalia.2184144064a1b2970ffa.png",
+    "static/media/axon.png": "/react-gh-pages/static/media/axon.08d652811f423460fe6b.png",
+    "static/media/client3.jpg": "/react-gh-pages/static/media/client3.d0925e01ab68e32e7b08.jpg",
+    "static/media/overlapping-card-image.png": "/react-gh-pages/static/media/overlapping-card-image.b13d945753dac23659fc.png",
+    "static/media/client2.jpg": "/react-gh-pages/static/media/client2.0ee931757ccd935abfd0.jpg",
+    "static/media/trip-card-img.jpg": "/react-gh-pages/static/media/trip-card-img.d4391cc3a35f1d0aeb75.jpg",
+    "static/media/localevents.png": "/react-gh-pages/static/media/localevents.5bfc3d2c15c9442c5f2e.png",
+    "static/media/expedia.png": "/react-gh-pages/static/media/expedia.332f9157a4ad7417c25a.png",
+    "static/media/plane.png": "/react-gh-pages/static/media/plane.d7e7848d31bf79e934a6.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.a1976b7a.css.map": "/react-gh-pages/static/css/main.a1976b7a.css.map",
+    "main.5563d960.js.map": "/react-gh-pages/static/js/main.5563d960.js.map",
+    "787.8d9b3c30.chunk.js.map": "/react-gh-pages/static/js/787.8d9b3c30.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1976b7a.css",
+    "static/js/main.5563d960.js"
+  ]
+}
