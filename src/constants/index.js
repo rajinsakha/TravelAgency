@@ -11,6 +11,7 @@ export const navLinks = [
     {href:"#hotels",label:"Hotels"},
     {href:"#flights",label:"Flights"},
     {href:"#bookings", label:"Bookings"},
+    
 ]
 
 export const services = [

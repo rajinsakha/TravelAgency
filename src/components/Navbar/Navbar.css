@@ -104,5 +104,21 @@ line-height: normal;
         display: none;
     }
 
+    
+
+}
+
+@media screen and (max-width: 850px) {
+    .app__navbar{
+        padding: 2rem 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .app__navbar{
+        padding: 2rem;
+    }
+    
 }
 
