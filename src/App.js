@@ -15,7 +15,7 @@ function App() {
      <Testimonials/>
      <Logos />
      <Newsletter />
-     <Footer />
+     <Footer /> 
     </div>
   );
 }  
