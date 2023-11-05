@@ -23,12 +23,12 @@ const Navbar = () => {
       </ul>
 
       <div className="app__navbar_account">
-        <a href="#">Login</a>
-        <a href="#">Signup</a>
+        <a href="#" className="login-btn">Login</a>
+        {/* <a href="#" className="signup-btn">Signup</a> */}
       </div>
 
       <div className="app__navbar_smallscreen">
-          <MdMenu fontSize={24} onClick={()=>setToggleMenu(true)} />
+          <MdMenu fontSize={28} className="pointer" onClick={()=>setToggleMenu(true)} />
 
         
         {toggleMenu && (
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <IoMdClose fontSize={28} onClick={()=>setToggleMenu(false)} />
+            <IoMdClose fontSize={28} className="pointer" onClick={()=>setToggleMenu(false)} />
           </div>
         )}
       </div>

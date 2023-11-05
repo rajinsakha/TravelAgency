@@ -123,6 +123,8 @@
     .overlapping-card{
         right: -140px;
     }
+
+ 
 }
 
 @media screen and (max-width: 650px) {
@@ -130,4 +132,16 @@
         display: none;
     }
     
+    
+
 }
+
+@media screen and (max-width: 450px) {
+  .trip-card{
+    width: 80%;
+  }
+  
+}
+
+
+

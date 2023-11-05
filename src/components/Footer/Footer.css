@@ -1,0 +1,138 @@
+.app__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 6rem 2rem 6rem;
+    gap: 4rem;
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 6rem;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.footer-logo p, .footer-tail p{
+color:  #5E6282;
+font-size: 14px;
+font-weight: 500;
+line-height: 124.5%; /* 16.185px */
+}
+
+.footer-logo h4 {
+  color: #181e4b;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-links {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.footer-links h4{
+color:  #080809;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 124.5%; /* 26.145px */
+margin-bottom: 1.75rem;
+}
+
+
+.footer-links ul li{
+list-style: none;
+color:  #5E6282;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 22.41px */
+margin-top: 0.75rem;
+cursor: pointer;
+}
+
+.socialMedia-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.socialMedia-links p{
+    color:  #5E6282;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 24.9px */
+letter-spacing: 0.1px;
+margin: 0.5rem 0rem;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Horizontal, Vertical, Blur, Color */
+}
+
+.footer-tail p{
+    text-align: center;
+}
+
+@media screen and (max-width: 1150px) {
+    .footer-main{
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 850px){
+    .app__footer{
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .app__footer{
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 640px) {
+  .footer-logo p {
+    max-width: 20rem;
+  }
+}
+
+
+

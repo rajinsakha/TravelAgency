@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="app__wrapper_info">
         <p className='tagline'>BEST DESTINATIONS AROUND THE WORLD</p>
         <h1 className='heading'>Travel, enjoy and live a new and full life</h1>
-        <p className='description'>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. park gate sell they west hard for the.</p>
+        <p className='description fix-width'>Life is all about travelling and exploring new places. Jadoo brings you packages at effective prices for making your holidays amazing, ensuring you memories for life. Live your life to the fullest.</p>
         <div className='info-buttons'>
         <button className='custom-button'>Find out More</button>
         

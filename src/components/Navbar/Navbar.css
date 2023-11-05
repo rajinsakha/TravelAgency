@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 4rem;
+    padding: 2rem 6rem;
 }
 
 .app__navbar_links{
@@ -17,7 +17,7 @@
     list-style: none;
 }
 
-.app__navbar_links li:hover, .app__navbar_account a:hover{
+.app__navbar_links li:hover{
     color: var(--color-yellow);
 }
 
@@ -25,9 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-    font-size: 1.1rem;
-    font-weight: 500;
+    gap: 3rem;
 }
 
 .app__navbar_smallscreen{
@@ -65,6 +63,31 @@
 
 .app__navbar_smallscreen_links li:hover{
     color: var(--color-dark);
+}
+
+.login-btn, .signup-btn{
+border: 1px solid transparent;
+border-radius: 0.5rem;
+background: var(--color-yellow);
+color: var(--color-white);
+width: 102px;
+height: 40px;
+padding: 0.5rem 1rem;
+text-align: center;
+font-size: 16px;
+letter-spacing: -0.04em;
+font-weight: 500;
+line-height: normal;
+}
+
+.login-btn:hover{
+    background: white;
+    color: var(--color-yellow);
+    border: 1px solid var(--color-yellow);
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 

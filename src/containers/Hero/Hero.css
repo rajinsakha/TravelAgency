@@ -1,0 +1,11 @@
+.fix-width{
+    width: 500px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1150px) {
+    .fix-width{
+        width: 90%;
+    }
+    
+}

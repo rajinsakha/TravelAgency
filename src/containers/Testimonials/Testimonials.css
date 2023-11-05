@@ -26,6 +26,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-top: 1rem;
 }
 
 .testimonials_info-review {
@@ -57,7 +58,7 @@
   height: 68px;
   border-radius: 68px;
   position: absolute;
-  left: -40px;
+  left: -34px;
   top: 0;
 }
 
@@ -90,16 +91,28 @@ overflow-y: auto; /* Vertical scrollbar if the content overflows */
 
   .customer-img {
     left: unset;
-    right: -40px;
+    right: -34px;
   }
 
   .testimonials_title {
     margin-right: 0rem;
   }
+
+  
 }
 
 @media screen and (max-width: 500px) {
   .info-head {
     width: fit-content;
   }
+
+  .app__testimonials_info{
+    gap: 2rem;
+  }
+
+  .testimonials_info-review {
+    width: 100%;
+  }
+
+  
 }

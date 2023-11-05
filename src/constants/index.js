@@ -40,3 +40,32 @@ export const testimonials = [
     {imgURL: client3, review:"“Top-notch service! Travel Globe made my journey hassle-free with their expert planning and incredible destination insights.”", fullName:"Sagar Thapa Magar", address
 : "Gulmi, Nepal"}
 ]
+
+export const footerLinks = [
+    {
+        title: 'Company',
+        links: [
+            { name: 'About', link: "/"},
+            { name: 'Careers', link: "/"},
+            { name: 'Mobile', link: "/"},
+        ],
+    },
+    {
+        title: 'Contact',
+        links: [
+            { name: 'Help/FAQ', link: "/"},
+            { name: 'Press', link: "/"},
+            { name: 'Affiliates', link: "/"},
+        ],
+    },
+    {
+        title: 'More',
+        links: [
+            { name: 'Airline Fees', link: "/"},
+            { name: 'Airline', link: "/"},
+            { name: 'Low Fare Trips', link: "/"},
+        ],
+    },
+  
+
+]

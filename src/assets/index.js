@@ -13,6 +13,14 @@ import customerImg from './review-img.png';
 import client1 from './client1.jpg';
 import client2 from './client2.jpg';
 import client3 from './client3.jpg';
+import alitalia from './alitalia.png';
+import qantas from './qantas.png';
+import axon from './axon.png';
+import jetstar from './jetstar.png';
+import expedia from './expedia.png';
+import playStore from './googleplay-store.png';
+import appStore from './app-store.png';
+import newsIcon from './newsletter-icon.png';
 
 export {
     logo,
@@ -29,5 +37,13 @@ export {
     customerImg,
     client1,
     client2,
-    client3
+    client3,
+    expedia,
+    jetstar,
+    qantas,
+    axon,
+    alitalia,
+    playStore,
+    appStore,
+    newsIcon
 }

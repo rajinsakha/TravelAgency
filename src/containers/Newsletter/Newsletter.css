@@ -1,0 +1,148 @@
+.app__newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem 6rem;
+  border-top-left-radius: 129px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: rgba(223, 215, 249, 0.2);
+  position: relative;
+}
+
+.newsletter_icon {
+  position: absolute;
+  top: -20px;
+  right: -30px;
+}
+
+.newsletter_info {
+  width: 70%;
+  position: relative;
+}
+
+.newsletter_info p {
+  color: #5e6282;
+  text-align: center;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px; /* 163.636% */
+  letter-spacing: -0.04em;
+}
+
+.newsletter_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+}
+
+#email-input {
+  width: 421px;
+  height: 50px;
+  border-radius: 10px;
+  background: var(--color-white);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+.subscribe-btn {
+  width: 180px;
+  height: 50px;
+  color: var(--color-white);
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover {
+  background: linear-gradient(180deg, #ff946d 100%, #ff7d68 100%);
+}
+
+@media screen and (max-width: 1050px) {
+  .app__newsletter {
+    padding: 4rem;
+  }
+
+  .newsletter_info {
+    width: 90%;
+  }
+
+  #email-input {
+    width: 100%;
+  }
+
+  .subscribe-btn {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .app__newsletter {
+    padding: 4rem 2rem;
+  }
+
+  .newsletter_info {
+    width: 100%;
+  }
+
+  .subscribe-btn {
+    min-width: 120px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .app__newsletter {
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .newsletter_info p {
+    font-size: 24px;
+  }
+
+  .newsletter_input {
+    gap: 1rem;
+  }
+
+  #email-input {
+    padding: 0.5rem;
+  }
+
+  #email-input,
+  .subscribe-btn {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .subscribe-btn {
+    min-width: 70px;
+    font-weight: 500;
+  }
+
+  .newsletter_icon{
+    right: -15px;
+  }
+
+  .newsletter_icon img{
+    width: 50px;
+    height: 50px;
+    
+   
+  }
+
+
+
+}

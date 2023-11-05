@@ -1,0 +1,14 @@
+.app__logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.app__logos img{
+    width: 140px;
+    height: 140px;
+    
+}
+
