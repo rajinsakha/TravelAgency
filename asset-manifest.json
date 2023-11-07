@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TravelAgency/static/css/main.f48121b1.css",
+    "main.css": "/TravelAgency/static/css/main.16f66e27.css",
     "main.js": "/TravelAgency/static/js/main.d339ac76.js",
     "static/js/787.8d9b3c30.chunk.js": "/TravelAgency/static/js/787.8d9b3c30.chunk.js",
     "static/media/destination3.png": "/TravelAgency/static/media/destination3.1a3fc4bdef6234bb6da5.png",
@@ -20,12 +20,12 @@
     "static/media/expedia.png": "/TravelAgency/static/media/expedia.332f9157a4ad7417c25a.png",
     "static/media/plane.png": "/TravelAgency/static/media/plane.d7e7848d31bf79e934a6.png",
     "index.html": "/TravelAgency/index.html",
-    "main.f48121b1.css.map": "/TravelAgency/static/css/main.f48121b1.css.map",
+    "main.16f66e27.css.map": "/TravelAgency/static/css/main.16f66e27.css.map",
     "main.d339ac76.js.map": "/TravelAgency/static/js/main.d339ac76.js.map",
     "787.8d9b3c30.chunk.js.map": "/TravelAgency/static/js/787.8d9b3c30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f48121b1.css",
+    "static/css/main.16f66e27.css",
     "static/js/main.d339ac76.js"
   ]
 }
