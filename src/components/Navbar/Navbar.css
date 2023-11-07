@@ -67,7 +67,7 @@
 
 .login-btn, .signup-btn{
 border: 1px solid transparent;
-border-radius: 0.5rem;
+border-radius: 9999px;
 background: var(--color-yellow);
 color: var(--color-white);
 width: 102px;
